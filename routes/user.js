@@ -51,7 +51,7 @@ router.get("/getusers", async (req, res) => {
 	}
 });
 
-// Get one user
+// Get user
 router.post("/getuser", async (req, res) => {
 	try {
 		const validId = req.body.userId;
